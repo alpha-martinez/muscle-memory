@@ -9,3 +9,46 @@ const places = { //use const when using objects
     loveItHere: true
 }
 //to access your key values it should be places.faveplace
+
+//function 1
+
+function addNum(num1, num2){
+    sum = num1 + num2; 
+    return sum;
+}
+
+addNum(4,5);
+
+//function two
+
+function hello(name){
+    console.log("Hey there!");
+}
+
+hello("Ann");
+
+//function 3
+
+function superHuman (powerOne, powertwo){
+    let muscle = powerOne() + powertwo();
+    return muscle;
+}
+
+function sleepyHead (){
+    let sleep = "I am very lazy.";
+
+    return sleep;
+}
+
+function powerGroup(){
+    let power = " I am strong though, so don't play with me.";
+
+    return power;
+}
+
+console.log (superHuman(sleepyHead, powerGroup));
+
+
+
+
+
